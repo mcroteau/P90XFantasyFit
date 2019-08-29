@@ -1,0 +1,17 @@
+
+
+** apache location **
+apache /etc/apache2/
+
+
+** removing port **
+open apache2.conf
+browse to bottom and add jkmount lines
+
+
+** activating apache site **
+a2ensite sites-available/{site-name}
+
+
+** restart apache **
+/etc/init.d/apache2 restart

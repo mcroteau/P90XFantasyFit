@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>log_entry</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">log_entry</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/motus/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Workout Plans</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Workout Plan Incomplete</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Arms & Shoulders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+
+
+<tr>
+	<td>type</td>
+	<td>name=alternatingShoulderPresses</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=inOutBicepCurls</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=twoArmTricepKickbacks</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=deepSwimmerPresses</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=fullSupinationConcentrationCurls</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=chairDips</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=uprightRows</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=staticArmCurls</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=flipGripTwistTricepKickbacks</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=twoAngleShoulderFlys</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=crouchingCohenCurls</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=lyingDownTricepExtensions</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=inOutStraightArmFlys</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=congdonCurls</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=sideTriRises</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=abRipperCompleted</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=notes</td>
+	<td>completed Arms & Shoulders</td>
+</tr>
+
+<tr>
+	<td>clickAndWait</td>
+	<td>name=_action_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+
+
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;alternatingShoulderPresses&quot;]</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;inOutBicepCurls&quot;]</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;twoArmTricepKickbacks&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;deepSwimmerPresses&quot;]</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;fullSupinationConcentrationCurls&quot;]</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;chairDips&quot;]</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;uprightRows&quot;]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;staticArmCurls&quot;]</td>
+	<td>7</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;flipGripTwistTricepKickbacks&quot;]</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;twoAngleShoulderFlys&quot;]</td>
+	<td>9</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;crouchingCohenCurls&quot;]</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;lyingDownTricepExtensions&quot;]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;inOutStraightArmFlys&quot;]</td>
+	<td>12</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;congdonCurls&quot;]</td>
+	<td>13</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;sideTriRises&quot;]</td>
+	<td>14</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name=&quot;abRipperCompleted&quot;]</td>
+	<td>on</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//textarea[@name=&quot;notes&quot;]</td>
+	<td>completed Arms & Shoulders</td>
+</tr>
+
+</tbody>
+</table>
+</body>
+</html>

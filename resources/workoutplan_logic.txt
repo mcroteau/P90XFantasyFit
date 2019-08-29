@@ -1,0 +1,40 @@
+
+REFACTOR : 
+
+- plannedWorkout/show.gsp
+
+
+NO WORKOUT PLANS
+
+	Create new workout plan
+	- sets status as ACTIVE
+	- sets current to true
+	
+	
+	Stop workout plan
+	- sets status to STOPPED
+	- current remains true
+	
+	
+	Complete workout plan
+	- sets status to COMPLETE
+	- current remains true
+	
+
+
+WITH CURRENT WORKOUT PLAN
+
+	Create new workout plan
+	- checks to find current plan with status of ACTIVE
+		- find one
+			- flash message user must stop or complete current plan
+			- redirect user
+			
+	- checks to find current plans with status of COMPLETE or STOPPED
+		- finds one
+			- set current to false
+			- save
+	
+	- new up new instance
+	- set status to ACTIVE
+	- set current

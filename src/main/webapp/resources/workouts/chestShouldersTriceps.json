@@ -1,0 +1,150 @@
+{
+	displayName : "Chest, Shoulders & Triceps",
+	className : "ChestShouldersTriceps",
+	instanceName : "chestShouldersTricepsInstance",
+	sequence : "CHEST_SHOULDERS_TRICEPS",
+	includeAbRipper : true,
+	sets : [
+	
+		[
+			{
+				name : "Slow Motion 3 in 1 Push Ups",
+				field : "slowMotionPushUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "In Out Shoulder Flys",
+				field : "inOutShoulderFlys",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Chair Dips",
+				field : "chairDips",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Plange Push Ups",
+				field : "plangePushUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Pike Presses",
+				field : "pikePresses",
+				type : "int",
+				weight : false
+			},			
+			{
+				name : "Side Tri-Rises",
+				field : "sideTriRises",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Floor Flys",
+				field : "floorFlys",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Scarecrows",
+				field : "scareCrows",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Overhead Tricep Extensions",
+				field : "overheadTricepExtensions",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Two-Twitch Speed Push Ups",
+				field : "twoTwitchSpeedPushUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Y-Presses",
+				field : "yPresses",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Lying Tricep Extensions",
+				field : "lyingTricepExtension",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Side To Side Push Ups",
+				field : "sideToSidePushUps",
+				type : "int",
+				weight : false
+			},			
+			{
+				name : "One Arm Push Ups",
+				field : "oneArmPushUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Weighted Circles",
+				field : "weightedCircles",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Throw The Bomb",
+				field : "throwTheBomb",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Clap/Plyo Push Ups",
+				field : "clapPushUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Slow-mo Throws",
+				field : "slowMoThrows",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Front To Back Tricep Extension",
+				field : "frontToBackTricepExtension",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "One Arm Balance Push Ups",
+				field : "oneArmBalancePushUps",
+				type : "int",
+				weight : false
+			},			
+			{
+				name : "Fly Row Presses",
+				field : "flyRowPresses",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Dumbbell Cross-Body Blows",
+				field : "dumbbellCrossBodyBlows",
+				type : "int",
+				weight : true
+			}
+		]
+	]
+}
+	
+
+
+
+
+

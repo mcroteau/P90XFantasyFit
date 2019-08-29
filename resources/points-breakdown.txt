@@ -1,0 +1,39 @@
+when to reward :
+
+workout logged
+workout plan completed
+pushup record
+pull up record
+5 consecutive workouts logged
+no workouts skipped for the week
+no ab ripper skipped
+
+?? make up workout ?
+?? push workout back
+
+* become motivator
+
+
+
+
+
+
+
+
+What if logs workout after planned date?
+- push back difference
+
+what if logs workout before planned date?
+- adjust schedule difference
+
+update -> compare dates -> if difference -> are you sure? push all workouts back? adjust schedule
+ 
+ 
+ 
+new records
+
+ 
+show -> log entry -> different ? yes -> before? after? -> log_entry -> 
+
+ 
+ 

@@ -1,0 +1,47 @@
+(registration.se, create-complete-plan.se)
+
+registration 
+profile update
+	- name
+	- age
+	- location
+	- email
+	- texts
+	- emails
+
+
+create workout plan
+	- finish workout plan
+	- assert # points
+	- assert # completed workouts
+	
+
+create competition
+	- invite members
+	- accept invitation
+	- decline invitation
+	- start plan 
+	- log workouts
+	- assert values
+	# verify emails and texts sent
+	
+	
+stop competition
+	- assert status
+	
+
+start competition
+	- invite members
+	- accept
+	- log workouts
+
+
+- user updates end date to tomorrow
+- change cron 
+- verify email sent notifying tomorrows competition end date
+- user updates end date to today
+- change cron 
+- verify competition gets complete status, accolades added, emails sent
+
+
+

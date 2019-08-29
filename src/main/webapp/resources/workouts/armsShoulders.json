@@ -1,0 +1,108 @@
+{
+	displayName : "Arms & Shoulders",
+	className : "ArmsShoulders",
+	instanceName : "armsShouldersInstance",
+	sequence : "ARMS_SHOULDERS",
+	includeAbRipper : true,
+	sets : [
+	
+		[
+			{
+				name : "Alternating Shoulder Presses",
+				field : "alternatingShoulderPresses",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "In & Out Bicep Curls",
+				field : "inOutBicepCurls",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Two Arm Tricep Kickbacks",
+				field : "twoArmTricepKickbacks",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Deep Swimmer Presses",
+				field : "deepSwimmerPresses",
+				type : "int",
+				weight : true
+			},			
+			{
+				name : "Full Supination Concentration Curls",
+				field : "fullSupinationConcentrationCurls",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Chair Dips",
+				field : "chairDips",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Upright Rows",
+				field : "uprightRows",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Static Arm Curls",
+				field : "staticArmCurls",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Flip-Grip Twist Tricep Kickbacks",
+				field : "flipGripTwistTricepKickbacks",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Two Angle Shoulder Flys",
+				field : "twoAngleShoulderFlys",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Crouching Cohen Curls",
+				field : "crouchingCohenCurls",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Lying Down Tricep Extensions",
+				field : "lyingDownTricepExtensions",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "In & Out Straight Arm Shoulder Flys",
+				field : "inOutStraightArmFlys",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Congdon Curls",
+				field : "congdonCurls",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Side Tri-Rises",
+				field : "sideTriRises",
+				type : "int",
+				weight : false
+			}
+		]
+	]
+}
+	
+
+
+
+
+

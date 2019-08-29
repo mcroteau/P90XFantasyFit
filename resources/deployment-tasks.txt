@@ -1,0 +1,13 @@
+
+- run test suite
+	- test cardio
+	- test free weights
+- war
+- scp
+- backup images
+- backup database
+- backup deployed war
+- remove deployed war
+- move scp war to web apps
+- copy backed up images into app
+- restart tomcat

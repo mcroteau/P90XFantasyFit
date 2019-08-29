@@ -1,0 +1,128 @@
+
+
+
+Todo 
+- new test suite
+	* keep track of 
+		- points
+		- number of workouts completed (overall & per plan)
+		- number of workouts skipped (overall & per plan)
+		- number of plans completed 
+		- number of competitions completed
+		- assert values on each workout
+		
+		
+** must fix **
+- resolve update error
+- resolve previous error for all workouts
+- 4 points for X Stretch
+- 8 points Yoga		
+- smack talk		
+
+		
+- new test suite
+- update profile picture should be seperate
+- edit start date on workout plan
+- add smack talk to application (design/code)
+- manual edit completed/started competitions (CompetitionJob)
+- investigate time based workouts, possibly add time to plannedWorkout (findByPlannedWorkoutDateBetween)
+- add workout link to motivation email and text
+- make more obvious not logged in
+- rename images to file name + random number
+- update workout should update accolade (add/remove ab ripper, workout time cardio)
+- add 80 mins cardio workout
+- edit workout plan
+- fix messages on workout plan adjustment
+- cleanup BaseController
+- gpars save/update workout with text messages
+
+
+
+
+
+
+** beta changes **	
+- user voice
+- rewrite script to create workout files
+- point ibring.it to p90xfantasyfit.com
+- think through invitation to join (include nonmembers?)
+- add social media links
+- go through all pages add titles	
+- add who registered on registration emails
+- rename competition to somehow include "League" (need more fantasy sports terminology integrated)
+- logged in home page should be different (maybe site level leaderboard and various site stats)
+- allow admin access to edit competitions/accounts/etc
+- investigate profile picture dimensions (jeremy's squished picture)
+- incorporate tablet screens
+- add about page (who, what, why)
+- privacy page
+- point system breakdown page
+- definitions page (what is a workout plan? a competition? etc...)
+- mention honor code (workouts based on honesty)
+- add printable worksheets
+- talk to team about "Badges"
+- WorkoutJob, sets completed workout plans and active workout plans
+- add all fields to arms and shoulders
+
+
+
+
+
+completed
+- fix workoutPlan error
+- limit on # registrations
+- add performing job quartz notification 
+- mock up homepage
+- create template logo
+- update logo on templates
+- write up feature/benefits
+- add admin email to registration email
+- remove port from address
+- point url to server
+- create google analytics account
+- update quartz job to cron
+- extend domain name ownership
+- sortable list accounts
+- fix broken text message (Dans phone)
+- change organizer to commissioner
+- "pick a workout" instead of "add a workout"
+- add meta tags
+- remove remember me
+- edit profile on phone
+- fix broken competition invite email link (index_mobile version)
+- login fails should keep data
+- increase session timeout
+- create competition fails should keep data (all screens)
+- change member to competitor
+- fix mobile show screen (hide buttons if not permitted)
+- fix mobile dashboard, hide buttons if not permitted
+
+
+
+
+
+BACKLOG
+- add p90x2 workouts
+- add p90x3 workouts
+- clean base controller
+- update other workout controllers
+- refactor all endpoints to either be camel case or lower case with underscore
+- custom meta tags for sub pages not just template level
+- add admin functionality to delete accounts and all data associated 
+- fix targetUri
+- workout again today? second workout after logging first workout
+
+
+
+
+ADMIN FUNCTIONALITY
+
+- how many current users
+- are users using the application?
+	- how many logins?
+	- anyone login today?
+	- anyone log a workout today?
+	- recent workouts logged
+- search users
+- disable user account
+

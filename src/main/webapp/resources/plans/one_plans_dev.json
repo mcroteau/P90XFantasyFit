@@ -1,0 +1,157 @@
+{
+	
+	Classic : {	
+		name : "Classic",
+		version : "P90X",
+		popular : true, 
+		doubles : true,
+		description : "Focuses on strength and conditioning",
+		workoutPlan : [
+			{
+				0 : {
+					workout : ChestBack,
+					includeAbs : true,
+				},
+				1 : {
+					workout : Plyometrics,
+					includeAbs : false
+				},
+				2 : {
+					workout : ArmsShoulders,
+					includeAbs : true
+				},
+				3 : {
+					workout : YogaX,
+					includeAbs : false
+				},
+				4 : {
+					workout : LegsBack,
+					includeAbs : true
+				},
+				5 : {
+					workout : KenpoX,
+					includeAbs : false
+				},
+				6 : {
+					workout : Xstretch,
+					includeAbs : false
+				}
+			},
+			{
+				0 : {
+					workout : BackBiceps,
+					includeAbs : true
+				},
+				1 : {
+					workout : CardioX,
+					includeAbs : false
+				},
+				2 : {
+					workout : ChestShouldersTriceps,
+					includeAbs : true
+				},
+				3 : {
+					workout : YogaX,
+					includeAbs : false
+				},
+				4 : {
+					workout : LegsBack,
+					includeAbs : true
+				},
+				5 : {
+					workout : CoreSynergistics,
+					includeAbs : false
+				},
+				6 : {
+					workout : Xstretch,
+					includeAbs : false
+				}
+			}
+		]
+	},
+
+	Lean : {
+		name : "Lean",
+		version : "P90X",
+		description : "Cardio focused",
+		workoutPlan : [
+			{
+				0 : {
+					workout : ChestBack,
+					includeAbs : true
+				},
+				1 : {
+					workout : Plyometrics,
+					includeAbs : false
+				},
+				2 : {
+					workout : ArmsShoulders,
+					includeAbs : true
+				},
+				3 : {
+					workout : YogaX,
+					includeAbs : false
+				},
+				4 : {
+					workout : LegsBack,
+					includeAbs : true
+				},
+				5 : {
+					workout : KenpoX,
+					includeAbs : false
+				},
+				6 : {
+					workout : Xstretch,
+					includeAbs : false
+				}
+			},
+			{
+				0 : {
+					workout : CardioX,
+					includeAbs : false
+				},
+				1 : {
+					workout : Plyometrics,
+					includeAbs : false
+				},
+				2 : {
+					workout : ArmsShoulders,
+					includeAbs : true
+				},
+				3 : {
+					workout : YogaX,
+					includeAbs : false
+				},
+				4 : {
+					workout : LegsBack,
+					includeAbs : true
+				},
+				5 : {
+					workout : KenpoX,
+					includeAbs : false
+				},
+				6 : {
+					workout : Xstretch,
+					includeAbs : false
+				}
+			}		
+		]
+	},
+
+	Doubles : {
+		name : "Doubles",
+		version : "P90X",
+		description : "Classic + added CardioX workouts",
+		workoutPlan : [
+			{
+				0 : {
+					workout : ChestBack,
+					includeAbs : true
+				}
+			}
+		]
+	}
+	
+}
+
+

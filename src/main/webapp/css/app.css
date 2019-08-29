@@ -1,0 +1,706 @@
+@font-face { 
+	font-family: Roboto-Regular; 
+	src: url("../fonts/Roboto-Regular.ttf"); 
+} 
+@font-face { 
+	font-family: Roboto-Bold;
+	src: url("../fonts/Roboto-Bold.ttf"); 
+}
+@font-face { 
+	font-family: Roboto-Thin; 
+	src: url("../fonts/Roboto-Thin.ttf"); 
+}
+@font-face { 
+	font-family: Roboto-Light; 
+	src: url("../fonts/Roboto-Light.ttf"); 
+}
+@font-face { 
+	font-family: Roboto-Black; 
+	src: url("../fonts/Roboto-Black.ttf"); 
+}
+@font-face { 
+	font-family: Roboto-Medium; 
+	src: url("../fonts/Roboto-Medium.ttf"); 
+}
+html,
+body{
+	height:100%;
+	text-align:center;
+	font-family:Arial;
+}
+
+#app-wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+#top-bar,
+#content-container{
+	width:980px;
+	margin:auto;
+	text-align:left;
+}
+
+#content-container{
+	padding-bottom:180px;
+}
+
+#top-bar-container{
+	background:#f2f2f2;
+	background:#fff;
+	border-bottom:solid 1px #e8e8e8;
+}
+
+a.logo{
+	float:left;
+	color:#000 !important;
+	font-size:18px;
+	font-family:Roboto-Regular;
+}
+.logo:hover{
+	text-decoration:none !important;
+}
+
+#it-logo{
+	font-family:Roboto-Bold;
+}
+
+#top-bar{
+	width:980px;
+	height:30px;
+}
+
+#top-nav{
+	float:right;
+	margin-bottom:4px;
+}
+
+#top-nav li{
+	float:left;
+	margin:6px 0px 0px 30px;
+	list-style:none;
+}
+
+#top-nav li a{
+	color:#000;
+	font-size:13px;
+	text-decoration:none;
+	display:inline-block;
+}
+
+#content-container{
+	padding-top:15px;
+}
+
+#profile-content{
+	width:175px;
+	float:left;
+}
+
+#profile-pic{
+	height:175px;
+	width:175px;
+	border:solid 1px #e8e8e8;
+}
+
+#profile-pic img{
+	height:inherit;
+	width:inherit; 
+}
+
+#profile-name,
+#profile-info{
+	font-size:23px;
+	display:block;
+	line-height:1.3em;
+}
+#profile-info{
+	font-size:17px;
+}
+
+#profile-name{
+	margin-top:10px;
+	text-transform:uppercase;
+}
+#profile-info{
+}
+
+h5{
+	margin-top:10px;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family:Roboto-Bold;
+	
+}
+
+.stats-table{
+	width:100%;
+}
+.stats-table tr{
+	border-top: solid 1px #f3f3f3;
+	border-bottom: solid 1px #f3f3f3;
+}
+
+.stats-table tr td{
+	padding:5px 0px;
+}
+
+.stat-value{
+	text-align:right;
+	font-family:Roboto-Bold;
+}
+
+#content{
+	float:left;
+	width:730px;
+	margin-left:24px;
+}
+#content-full{
+	float:none;
+	width:980px;
+	margin-left:0px;
+}
+
+#content-nav{
+	float:right;
+	margin:0px;
+}
+
+#content-nav li{
+	list-style:none;
+
+	display:inline-block;
+	margin:0px 0px 0px 40px !important;
+}
+
+#content-nav li a{
+	color:#979797;
+	display:inline-block;
+	text-transform:uppercase;
+	text-decoration:none;
+	outline:none;
+}
+
+#content-nav li a.active{
+	color:#000000;
+}
+
+#content-inner-container{
+	float:left; 	
+	width:755px;
+	padding:0px !important;
+	margin-left:25px;
+	border-left:solid 1px #f3f3f3; 
+}
+#content-inner-container-full{
+	width:980px;
+	padding:0px !important;
+	margin-left:0px;
+	border-left:none; 
+	float:none;
+}
+
+h1{
+	font-size:20px;
+}
+
+#dashboard-header{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#dashboard-header h1{
+	margin:0px;
+	text-transform:uppercase;
+}
+
+#date-range{
+	float:right; 
+	text-align:right
+}
+.date-label{
+	margin-left:20px;
+	font-family:Roboto-Medium;
+}
+
+.dashboard-column{
+	width:340px;
+}
+
+h1.header-stat{
+	margin:0px 20px 0px 0px;
+	padding:0px;
+	font-size:60px;
+	text-align:center;
+	position:relative;
+	font-family:Roboto-Black;
+}
+.header-stat-label{
+	display:block;
+	font-size:14px;
+	text-transform:uppercase;
+	font-family:Roboto-Regular;
+}
+.percent-sym{
+	margin-top:-20px;
+	font-size:24px;
+	position:absolute;
+	top:30px;
+	display:inline-block;
+	font-family:Roboto-Regular;
+}
+
+h2.header-stat{									
+	margin:10px 0px 0px 10px;
+	padding:0px;
+	font-size:24px;
+	text-align:center;
+	position:relative;
+}
+h2 .header-stat-label{
+	font-size:11px;
+}
+
+#todays-workout-container{
+	margin:20px 0px;
+	text-align:center;
+}
+#todays-workout-label{
+	font-family:Roboto-Medium;
+}
+#todays-workout{
+	margin:15px auto;
+}
+
+#chart{
+	float:right;
+	margin-right:50px;
+}
+#chart-legend{
+	float:right;
+}
+.legend-item{
+	font-size:12px;
+	margin: 10px auto;
+	display:block;
+}
+.legend-item-box{
+	height:15px;
+	width:15px;
+	display:inline-block;
+	margin:0px 5px 0px 0px;
+}
+.legend-item-box.complete{
+	background:#2871f9;
+	border:solid 1px #135be3;
+}
+.legend-item-box.skipped{
+	background:#ffdb41;
+	border:solid 1px #ecc72b;
+
+	background: #D2322D !important;
+	border:solid 1px #b3140f;
+}
+.legend-item-box.incomplete{
+	background:#f2f2f2;
+	border:solid 1px #d3d3d3;
+	
+	background:#A4C4FE;
+	border:solid 1px ##85a8e6;
+}
+
+#recent-activity{
+	padding-left:0px;
+}
+#recent-activity li{
+	margin:0px auto 7px auto;
+	list-style:none;
+}
+.points-wrapper{
+	font-weight:bold;
+	padding:2px 7px;
+	background:#e2e1e1;
+	display:inline-block;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+#social-media{
+	margin:20px auto 0px auto;
+	text-align:center;
+}
+
+#calendar{
+	margin-top:25px;
+}
+	
+.fc-header-title h2,
+h2{
+	font-size:20px !important;
+	text-transform:uppercase;
+	font-family:Roboto-Regular;
+}
+
+#footer-container{
+	height:150px;
+	margin-top:150px;
+	padding:20px 0px 50px 0px;
+	background:#f2f2f2;
+	border-top:solid 1px #e8e8e8;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;	
+}
+
+#footer{
+	width:980px;
+	margin:0px auto;
+	text-align:left;	
+}
+
+
+table th{
+	font-size:11px;
+	text-transform:uppercase;
+	background:#f2f2f2 !important;
+}
+
+.align-center{
+	text-align:center;
+}
+.align-left{
+	text-align:left;
+}
+.align-right{
+	text-align:right;
+}
+
+.label{
+	font-weight:normal;
+}
+
+
+
+.workout-plan-container{ 
+	margin:0px 0px 15px 0px;
+	background:#f2f2f2;
+	border:solid 1px #ddd;
+	padding:5px 25px 20px 25px;
+}
+.workout-plan-container.active{
+	background:#fff;
+}
+.workout-plan-container a{
+	float:right; 
+	margin-top:25px;
+	display:inline-block; 
+}
+.workout-plan-info{
+	float:left; width:550px
+}
+.plan-points{
+	float:right; 
+	margin-top:20px;
+}
+.workout-plan-info-top h3{
+	float:left; 
+	font-size:20px;
+	font-weight:normal;
+}
+.workout-plan-info-top h6{
+	float:left; 
+	margin:23px 0px 0px 10px
+}
+.plan-info{
+	font-size:12px;
+	margin:0px 35px 0px 0px;
+}
+
+
+.progress-photo-previews{
+	margin:10px 0px 0px 0px;
+}
+.progress-photo-previews h3{
+	width:100px;
+	margin-right:20px;
+	text-align:right;
+}
+.progress-photo-previews h3,
+.progress-photo-preview img{
+	float:left;
+}
+.progress-photo-previews h3 a{
+	font-size:12px;
+	display:block;
+	margin:10px auto;
+}
+.progress-photo-previews img{
+	width:60px;
+	height:75px;
+	cursor:hand;
+	cursor:pointer;
+	margin:0px 5px 0px 0px;
+}
+
+.photo-container{
+	width:240px;
+}
+
+.blank-photo{
+	height:300px;
+	width:240px;
+	background:#ebebeb;
+}
+
+.photo-container h3{
+	margin-top:0px;
+}
+.instructions{
+	color:#979797;
+}
+
+
+#workout-container{
+	width:650px;
+	margin:0px auto;
+	text-align:left;
+}
+table.workout{
+	width:650px;
+}
+table.workout th.spacer{
+	width:20px;
+}
+table.workout th{
+	text-align:center;
+}
+table.workout td{
+	vertical-align:middle !important;
+}
+table.workout td strong{
+	font-size:13px;
+	color:#979797;
+	margin-left:10px;
+	display:inline-block;
+}
+table.workout input[type="text"]{
+	width:50px;
+	display:inline-block;
+}
+td.exercise{
+	width:250px;
+	font-size:13px;
+	text-align:left !important;
+	text-transform:uppercase;
+}	
+td.exercise strong{
+	margin-right:15px;
+	color:#000000 !important;
+}
+
+.form-control {
+	font-size:17px;
+	padding-left:8px;
+	padding-right:8px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+
+.btn{
+	-webkit-box-shadow: 0px 0px 4px 0px #ddd;
+	-moz-box-shadow: 0px 0px 4px 0px #ddd;
+	box-shadow: 0px 0px 4px 0px #ddd;
+	-webkit-border-radius: 1px !important;
+	-moz-border-radius: 1px !important;
+	border-radius: 1px !important;
+}
+
+.alert,
+.label{
+	-webkit-border-radius: 1px !important;
+	-moz-border-radius: 1px !important;
+	border-radius: 1px !important;
+}
+
+.btn-lg{
+	font-size:17px;
+}
+
+.btn-primary{
+	border:solid 1px #1e61f3;
+	background: #357bfc; /* Old browsers */
+	background: -moz-linear-gradient(top, #357bfc 0%, #226df8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#357bfc), color-stop(100%,#226df8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #357bfc 0%,#226df8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #357bfc 0%,#226df8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #357bfc 0%,#226df8 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #357bfc 0%,#226df8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#357bfc', endColorstr='#226df8',GradientType=0 ); /* IE6-9 */
+}
+
+.btn-primary:active{
+	background:#2b71ef;
+}
+
+.label-Active{
+	background-color:#357bfc;
+}
+
+.label-Incomplete {
+    background-color: #d9534f;
+}
+
+.label-Stopped{
+	background:#999;
+}
+
+
+
+.dropdown-menu li a,
+.dropdown-menu li a:hover{
+	cursor:pointer;
+	cursor:hand;
+}
+
+
+
+.nextLink,
+.step,
+.currentStep,
+.prevLink {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #428bca;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none !important;
+}
+.nextLink:hover,
+.step:hover,
+.currentStep:hover,
+.prevLink:hover{
+	text-decoration:none;
+}
+.currentStep {
+    background-color: #428bca;
+    border-color: #428bca;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+
+
+
+
+#reset-form{
+
+}
+#reset-form p.inactive{
+	color:#999;
+}
+#reset-form p em{
+	font-style:normal;
+	font-weight:bold;
+}
+
+h2 .large{
+	display:block;
+	font-size:30px;
+	font-family:Roboto-Thin;
+}
+
+#competition-left{
+	float:left;
+	width:700px;
+	margin-top:25px;
+}
+#competition-right{
+	float:right;
+	width:200px;
+	margin:25px 0px 0px 50px;
+	padding:25px;
+	text-align:center;
+	background:#f2f2f2;
+	border:1px solid #e8e8e8;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#competition-right a{
+	width:140px;
+	margin:0px auto 15px auto;
+}
+#competition-right a:nth-child(2){
+	margin:0px auto;
+}
+.completed-competitions-link{
+	float:right; 
+	vertical-align:bottom; 
+	margin-top:30px;
+}
+
+
+.well{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background:#f2f2f2 !important;
+}
+
+table .previous{
+	color:#777;
+	font-size:10px;
+}
+table.mobile .previous{
+	display:block;
+}
+
+.float-right{
+	float:right;
+}
+
+.float-left{
+	float:left;
+}
+.clear{
+	clear:both;
+}
+
+.label a{
+	text-decoration:underline;
+}
+#start-something{
+	margin-top:40px;
+}
+
+.stat-description{
+	font-family:Roboto-Thin;
+}
+.welcome-back{
+	font-size:12px;
+	margin-left:134px;
+	margin-top:7px;
+	display:inline-block;
+}
+.planned-workout-entry,
+.planned-workout-show{
+	margin-top:30px;
+}
+
+.btn-default{
+	background:#fff !important;
+	border:solid 1px #ddd;
+}
+
+.logo .label-danger{
+	padding-top:10px;
+}

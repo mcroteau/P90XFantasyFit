@@ -1,0 +1,60 @@
+.table th{
+	text-align:center;
+	border-bottom:solid 2px #ddd;
+}
+
+.table th.exercise{
+	text-align:left;
+}
+
+.table input[type="text"]{
+	width:30px;
+}
+
+.table .type, 
+.table .previous{
+	width:10px;
+	color:#777;
+	font-size:9px;
+	display:inline-block;
+}
+
+.table .type{
+	font-weight:bold;
+}
+
+.table td{
+	vertical-align:middle;
+}
+.table tr td:nth-child(1){
+	text-align:left;
+}
+
+.table td:nth-child(4),
+.table th:nth-child(3),
+.table th:nth-child(6){
+	border-left:solid 1px #ddd;
+}
+
+.table.entry{
+	width:600px;
+	margin:0px auto;
+	border:solid 1px #dddddd !important;
+}
+
+.table td{
+	border:none;
+}
+
+.table tbody tr:nth-child(odd){
+	background:#f8f8f8;
+}
+
+code.completed{
+	color:#008500;
+	border-color:#57C257;
+}
+
+.additional-info{
+	text-align:center;
+}

@@ -1,0 +1,1 @@
+<p><strong>Time : </strong>${plannedWorkout.minutes} Minutes</p>

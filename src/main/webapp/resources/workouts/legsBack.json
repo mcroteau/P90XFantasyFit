@@ -1,0 +1,157 @@
+{
+	displayName : "Legs & Back",
+	className : "LegsBack",
+	instanceName : "legsBackInstance",
+	sequence : "LEGS_BACK",
+	includeAbRipper : true,
+	sets : [
+	
+		[
+			{
+				name : "Balance Lunges",
+				field : "balanceLunges",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Calf Raise Squats",
+				field : "calfRaiseSquats",
+				type : "int",
+				weight : true
+			},			
+			{
+				name : "Reverse Grip Pull Ups",
+				field : "reverseGripPullUps1",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Super Skaters",
+				field : "superSkaters",
+				type : "int",
+				weight : false
+			},	
+			{
+				name : "Wall Squats",
+				field : "wallSquats",
+				type : "int",
+				weight : false
+			},		
+			{
+				name : "Wide Front Pull Ups",
+				field : "wideFrontPullUps",
+				type : "int",
+				weight : false
+			},			
+			{
+				name : "Step Back Lunge",
+				field : "stepBackLunge",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Alternating Side Lunges",
+				field : "alternatingSideLunge",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Closed Grip Pull Ups",
+				field : "closedGripPullUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Single Leg Wall Squats",
+				field : "singleLegWallSquats",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Deadlift Squats",
+				field : "deadLiftSquats",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Switch Grip Pull Ups",
+				field : "switchGripPullUps",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Three Way Lunges",
+				field : "threeWayLunges",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Sneaky Lunges",
+				field : "sneakyLunges",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Reverse Grip Chin Ups",
+				field : "reverseGripChinUps2",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Chair Salutations",
+				field : "chairSalutations",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Toe Roll Iso Lunge",
+				field : "toeRollIsoLunge",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Wide Front Pull Ups",
+				field : "wideFrontPullUps2",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Groucho Walk",
+				field : "grouchoWalk",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Calf Raises",
+				field : "calfRaises",
+				type : "int",
+				weight : true
+			},
+			{
+				name : "Closed Grip Pull Ups",
+				field : "closedGripPullUps2",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "80/20 Siebers Speed Squats",
+				field : "sieberSpeedSquats",
+				type : "int",
+				weight : false
+			},
+			{
+				name : "Switch Grip Pull Ups",
+				field : "switchGripPullUps2",
+				type : "int",
+				weight : false
+			}
+		]
+	
+	]
+}
+	
+
+
+
+
+
