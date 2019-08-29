@@ -12,8 +12,8 @@ import java.util.List;
 
 class TextMessageService {
 
-    public static final String ACCOUNT_SID = "ACc1ed3af82b268fa173adad3fd605dd0e";
-    public static final String AUTH_TOKEN = "b3dbac4b7ca092b2f0fa503cd4ee5fff";
+    public static final String ACCOUNT_SID = "";
+    public static final String AUTH_TOKEN = "";
 	public static final String CELL_PHONE_NUMBER = "+13016797292" 
 	
 	def send(recipient, body){
